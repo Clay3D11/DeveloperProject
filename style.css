@@ -700,7 +700,7 @@ a:hover {
     left: 0; 
     top: 0; 
     pointer-events: none; 
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  */
     opacity: 0; 
     z-index: -1000;
 } 
@@ -1424,9 +1424,9 @@ button {
     text-transform: none;
 } 
 
-[type="button"],button { 
-    -webkit-appearance: button;
-} 
+/* [type="button"],button { 
+  -webkit-appearance: button;
+}  */
 
 .ewo-87b { 
     position: relative; 
