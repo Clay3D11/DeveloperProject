@@ -3058,7 +3058,17 @@ ul {
   .ilg-lnc .sc-7gh .sc-emt  { 
     padding: 8px;
   } 
-}     
+}  
+
+@media (max-width: 400px){
+  .snip1574 {
+    display: block;
+  }
+}
+
+
+
+
 
 @media (max-width: 1279.95px){ 
   .bnetGame-dmo.bnetGame-dmo { 
@@ -3663,3 +3673,201 @@ ul {
    min-height: 0px;  
     transition-delay: 5000ms;  
 }   */
+
+
+
+
+
+
+
+
+
+/* Team */
+/* Team */
+/* Team */
+
+
+.snip1574 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  /* background-color: #000000; */
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); */
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+
+}
+
+.snip1574 img {
+  
+  max-width: 100%;
+  width: 350px;
+  height: 300px;
+  border-radius: 50%;
+
+  
+  vertical-align: top;
+  /* opacity: 0.7; */
+ 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.snip1574 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 80px 10% 15%;
+}
+
+.snip1574 figcaption p {
+  font-weight: 700;
+
+
+  color: #00ffff;
+  text-shadow: 0 0 20px #ff0022, 0 0 40px #0081bc;
+
+
+  background: linear-gradient(to right, #d0ff00f6, #0daaa2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+/* .snip1574 figcaption:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 170px;
+  opacity: 0.35;
+  font-style: normal;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0px;
+  left: 50%;
+} */
+
+.snip1574 blockquote {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.snip1574 h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 3px 0;
+  color: #03f8c3;
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+  
+}
+
+.snip1574 h3 {
+  background: linear-gradient(to right, #f32170, #ffeb07, #bbf321, #e002fd);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.snip1574 h5 {
+  background: linear-gradient(to right, #142c6e, #ff02f2, #21f3e2, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.snip1574 h5 {
+  color: #03f8c3;
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+  letter-spacing: 1px;
+}
+
+/* 
+.snip1574 img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2rem;
+} */
+
+
+
+/* Quote Generator */
+/* Quote Generator */
+/* Quote Generator */
+
+
+/* body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1e1c27;
+  color: white;
+} */
+
+.quote {
+  display: grid;
+  place-items: center;
+}
+
+#quote-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+
+
+#quote-text {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#quote-author {
+  font-style: italic;
+  color: #666;
+}
+
+#new-quote-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#new-quote-btn:hover {
+  background-color: #2980b9;
+}
